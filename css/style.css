@@ -1,33 +1,51 @@
 body {
 padding: 1% 0.5%;
-background: rgba(57, 104, 124, 0.92);
+background: rgba(6, 50, 51, 0.99);
 }
 
 header {
-  background: rgba(227, 229, 238, 0.53);
+  background: rgba(235, 244, 242, 0.69);
   padding: 5%;
   text-align: center;
 }
 
 main {
-  width: 90%;
-  height: 70%;
-  padding: 5%;
+  width: auto;
+  padding: 0.5%;
   background: rgba(227, 229, 238, 0.53);
-
-  
-  box-sizing: border-box;
 }
 
-
+section{
+  background: rgba(10, 53, 59, 0.85);
+  padding: 1%;
+}
+#grid {
+  width: 90%;
+  columns: 3;
+  padding-left: 10%;
+}
 
 h1 {
 font-size: 36px;
+}
+
+p {
+  font-style: normal;
+  color: rgb(225, 235, 242);
 
 }
+h3 {
+  padding: 0.1%;
+}
  .proyectos {
+   width: 60%;
+   padding: 1%;
+   padding-bottom: 0.1%;
+   position: relative;
+   top: auto;
 
-    height: 18%;
-    width: 28%;
-
- }
+  }
+img {
+  width: 200px;
+  height: 90px;
+}
