@@ -1,52 +1,79 @@
-body {
-  padding: 1% 0.5%;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body  {
   background: rgba(6, 50, 51, 0.99);
-  }
+}
 
-header {
+header  {
+  width: 97%;
+  height: 180px;
+  margin: auto;
+  padding-top: 50px;
+  margin-top: 15px;
   background: rgba(235, 244, 242, 0.69);
-  padding: 5%;
   text-align: center;
-  }
-
-main {
-  width: auto;
-  padding: 0.5%;
-  background: rgba(227, 229, 238, 0.53);
-  }
-
-section{
-  background: rgba(10, 53, 59, 0.85);
-  padding: 1%;
-  }
-
-#grid {
-  width: 90%;
-  columns: 3;
-  padding-left: 10%;
-  }
+}
 
 h1 {
-font-size: 36px;
-  }
+  font-size: 36px;
+  margin-bottom: 15px;
+}
 
-p {
-  font-style: normal;
-  color: rgb(225, 235, 242);
-  }
 
-h3 {
-  padding: 0.1%;
-  }
+main  {
+  width: 97%;
+  background:rgba(227, 229, 238, 0.53);
+  margin: auto;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+}
 
- .proyectos {
-   width: 60%;
-   padding: 1%;
-   padding-bottom: 0.1%;
-   position: relative;
-   top: auto;
-  }
-img {
-  width: 200px;
-  height: 90px;
-  }
+section {
+  width: 98%;
+  margin: auto;
+  background-color: rgba(10, 53, 59, 0.85);
+  padding-top: 5px;
+}
+
+section #grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.proyectos  {
+  margin: 8px;
+}
+
+.proyectos img  {
+  width: 300px;
+  height: 150px;
+}
+
+footer {
+  width: 97%;
+  height: 100px;
+  background-color: rgba(235, 244, 242, 0.69);
+  margin: auto;
+  margin-top: 7px;
+  font-size: 18px;
+}
+
+footer #pie_de_pagina  {
+  margin: auto;
+  padding-top: 25px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(6, 50, 51) ;
+}
+
+footer p {
+  padding-bottom: 7px;
+}
