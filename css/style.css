@@ -77,3 +77,10 @@ footer a {
 footer p {
   padding-bottom: 7px;
 }
+#panel  {
+     padding: 15px;
+    display: none;
+    text-align: center;
+    background-color: rgba(235, 244, 242, 0.69);
+    border: solid 2px #c3c3c3;
+}

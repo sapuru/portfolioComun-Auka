@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
   </head>
 
 <body>
@@ -22,57 +23,51 @@
 
         <div class="proyectos">
           <img src="images/zombie.jpg">
+           <div id="panel">Cuidad Zombie:"¡Huye de los zombies! ¡Que el tren no te alcance!"<a href="/portfolio/Ciudad_zombie-COLQUE/juego.html" target="_self"><button>Jugar</button> </a></div>
         </div>
-        <!-- <p>Cuidad Zombie:"¡Huye de los zombies! ¡Que el tren no te alcance!"</p> -->
-        <!-- <a href="/portfolio/Ciudad_zombie-COLQUE/juego.html">Paula</a> -->
+
 
         <div class="proyectos">
           <img src="images/rompecabezas.jpg">
+          <div id="panel">Rompecabezas:"¡Diviértete armando el Rompecabezas!"<a href="/portfolio/Rompecabezas-Lasar/juego.html" target="_self"><button>Jugar</button> </a></div>
         </div>
-        <!-- <p>Rompecabezas:"¡Diviértete armando el Rompecabezas!"</p> -->
-        <!-- <a href="/portfolio/Rompecabezas-Lasar/juego.html">Silvina</a> -->
 
         <div class="proyectos">
           <img src="images/interactivo.jpg">
+          <div id="panel">Mapa Interactivo:"Lograrás que encuentren tu negocio, con los Mapas Interactivos"<a href="/portfolio/MapaInteractivoPorMaiaraCercasi/index.html" target="_self"><button>Jugar</button> </a></div>
         </div>
-        <!-- <p>Mapa Interactivo:"Lograrás que encuentren tu negocio, con los Mapas Interactivos"</p> -->
-        <!-- <a href="/portfolio/MapaInteractivoPorMaiaraCercasi/index.html">Maiara</a> -->
+
 
         <div class="proyectos">
           <img src="images/encuestados.jpg">
+          <div id="panel">Encuestados:"Desde el patrón Modelo-Vista-Controlador: ¡monitorea tus encuestas!"<a href="/portfolio/evangelina_oviedo_encuestados/index.html" target="_self"><button>Jugar</button> </a></div>
         </div>
-        <!-- <p>Encuestados:"Desde el patrón Modelo-Vista-Controlador: ¡monitorea tus encuestas!"</p> -->
-        <!-- <a href="/portfolio/evangelina_oviedo_encuestados/index.html">Evangelina</a> -->
+
 
         <div class="proyectos">
           <img src="images/pixel.jpg">
+          <div id="panel">Pixel Art:"¡Edita en línea tus héroes favoritos!"<a href="/portfolio/AlePatti-Pixel-Art/index.html" target="_self"><button>Jugar</button> </a></div>
         </div>
-        <!-- <p>Pixel Art:"¡Edita en línea tus héroes favoritos!"</p> -->
-        <!-- <a href="/portfolio/AlePatti-Pixel-Art/index.html">Ale-Patti</a> -->
 
         <div class="proyectos">
           <img src="images/rompecabezas-rec.jpg">
+          <div id="panel">Rompecabezas:"¡Te desafíamos a resolver el Rompecabezas...viene Recargado!"<a href="/portfolio/Alejandra-Bravo_Rompecabeza_Recargado/juego.html" target="_self"><button>Jugar</button> </a></div>
         </div>
-        <!-- <p>Rompecabezas:"¡Te desafíamos a resolver el Rompecabezas...viene Recargado!"</p> -->
-        <!-- <a href="/portfolio/Alejandra-Bravo_Rompecabeza_Recargado/juego.html">Alejandra-Bravo</a> -->
 
         <div class="proyectos">
           <img src="images/homebanking.jpg">
+          <div id="panel">Home Banking:"¿Quieres saber tu saldo actual o realizar transferencias? Desde este sitio los puedes realizar"<button>Proximamente</button> </div>
         </div>
-        <!-- <p>Home Banking:"¿Quieres saber tu saldo actual o realizar transferencias? Desde este sitio los puedes realizar"</p> -->
-        <!-- <a href="#">Proyecto 7</a> -->
 
         <div class="proyectos">
           <img src="images/queveo.jpg">
+          <div id="panel">¿Qué veo?:Selecciona tu película favorita en nuestra base de datos"<button>Proximamente</button> </div>
         </div>
-        <!-- <p>¿Qué veo?:Selecciona tu película favorita en nuestra base de datos"</p> -->
-        <!-- <a href="#">Proyecto 8</a> -->
 
         <div class="proyectos">
           <img src="images/peliVspeli.jpg">
+          <div id="panel">Proyecto nueve:"Texto descriptivo de este trabajo"<button>Proximamente</button> </div>
         </div>
-        <!-- <p>Proyecto nueve:"Texto descriptivo de este trabajo"</p> -->
-        <!-- <a href="#">Proyecto 9</a> -->
 
       </div>
 
@@ -90,6 +85,16 @@
     </div>
 
   </footer>
+
+  <script>
+  $(document).ready(function(){
+      $("img").mouseover(function(){
+          $("#panel").slideToggle("slow");
+       });
+  });
+
+  </script>
+
 
 </body>
 
